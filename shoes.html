@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sheos</title>
+  <link rel="stylesheet" href="shoes.scss">
+</head>
+<body>
+  <header class="bg-white w-full flex items-center justify-center px-4 py-6 font-semibold">
+    <div class="container flex items-center justify-between">
+      <div class="flex items-center justify-between gap-4">
+        <img class="mr-6" src="/logo.svg" alt="logo" />
+        <a href="index.html">New collection</a>
+        <a href="Men.html">Men</a>
+        <a href="women.html">Women</a>
+        <a href="store.html">store</a>
+      </div>
+      <div class="flex items-center justify-between gap-4">
+        <img src="/heart.svg" alt="heart" />
+        <img src="/cart.svg" alt="cart" />
+        <img src="/user.svg" alt="user" />
+      </div>
+    </div>
+  </header>
+  <div id="app"> 
+    <div class="w-full relative h-screen bg-[#F4F4F4] overflow-hidden">
+      <div class="flex flex-col items-center relative">
+        <div class="flex items-center">
+          <h1 class="text text-[#E8E8E8] text-[500px]">N</h1>
+          <h1 class="text text-[#E8E8E8] text-[500px]">I</h1>
+          <h1 class="text text-[#E8E8E8] text-[500px]">K</h1>
+          <h1 class="text text-[#E8E8E8] text-[500px]">E</h1>
+        </div>
+        <img src="/shadow.svg" alt="shadow" class="" />
+        <h2 class="text-7xl font-light absolute left-6 top-1/2 -translate-y-1/2">
+          Just <br>
+          Do <br>
+          It
+        </h2>
+      </div>
+      <div
+        class="absolute flex justify-center items-center w-full h-screen top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+        <div class="shoes flex flex-col justify-start items-center w-full h-screen">
+          <div class="flex items-center justify-center w-full h-full pb-60 shrink-0">
+            <img src="/img-1.svg" alt="Nike Air Force" class="" />
+          </div>
+          <div class="flex items-center justify-center w-full h-full pb-60 shrink-0">
+            <img src="/img-2.svg" alt="Nike Air Monarch" class="" />
+          </div>
+          <div class="flex items-center justify-center w-full h-full pb-60 shrink-0">
+            <img src="/img-3.svg" alt="Nike Air Max 720" class="" />
+          </div>
+          <div class="flex items-center justify-center w-full h-full pb-60 shrink-0">
+            <img src="/img-4.svg" alt="Nike Air Max 90" class="" />
+          </div>
+        </div>
+      </div>
+      <div class="absolute bottom-10 w-full flex items-center justify-center gap-6">
+        <div data-index="0"
+          class="item z-20 cursor-pointer hover:w-80 transition-[width] duration-300 flex flex-col items-center pb-8 bg-white rounded-3xl w-60">
+          <img src="/img-1.svg" alt="Nike Air Force" class="w-40 rotate-[25deg]" />
+          <span class="text-center text-2xl">Nike Air Force</span>
+        </div>
+        <div data-index="1"
+          class="item z-20 cursor-pointer hover:w-80 transition-[width] duration-300 flex flex-col items-center pb-8 bg-white rounded-3xl w-60">
+          <img src="/img-2.svg" alt="Nike Air Monarch" class="w-40 rotate-[25deg]" />
+          <span class="text-center text-2xl">Nike Air Monarch</span>
+        </div>
+        <div data-index="2"
+          class="item z-20 cursor-pointer hover:w-80 transition-[width] duration-300 flex flex-col items-center pb-8 bg-white rounded-3xl w-60">
+          <img src="/img-3.svg" alt="Nike Air Max 720" class="w-40 rotate-[25deg]" />
+          <span class="text-center text-2xl">Nike Air Max 720</span>
+        </div>
+        <div data-index="3"
+          class="item z-20 cursor-pointer hover:w-80 transition-[width] duration-300 flex flex-col items-center pb-8 bg-white rounded-3xl w-60">
+          <img src="/img-4.svg" alt="Nike Air Max 90" class="w-40 rotate-[25deg]" />
+          <span class="text-center text-2xl">Nike Air Max 90</span>
+        </div>
+      </div>
+    </div>
+    <div class="absolute flex items-center justify-between w-full top-0 py-2 px-6">
+      <img src="/nike.svg" alt="Nike" class="w-20" />
+      
+    </div>
+  </div>
+  <div class="othershoes">
+    <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwivjufZsoWGAxVxS0cBHSsBDTwYABACGgJxdQ&ase=2&gclid=CjwKCAjwrvyxBhAbEiwAEg_KglH8TS4BqZbRY5VXnpQ7Eun9sB40qINbg3KP7uWJ-oZTcfxbPdREfBoCZzkQAvD_BwE&ohost=www.google.com&cid=CAESVeD2QXiZ7at9IypFK3gW9bXapdQpMH18DxW1BE-rdSZRct1dKqHR4rgHCmiTPAEm_OP8V3WK-XB7issDUGKe8Hj00fmmxjhd7VcFr7bS9hAxKpEetKw&sig=AOD64_0akpRF65EgggLGUuikmOWNZuCEOQ&q&nis=4&adurl&ved=2ahUKEwi97uDZsoWGAxVMMVkFHctaDesQ0Qx6BAgHEAM">othershoes</a>
+  </div>
+<script type="module" src="shoes.js"></script>
+</body>
+</html>
